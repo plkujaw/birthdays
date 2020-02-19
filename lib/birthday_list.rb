@@ -5,7 +5,7 @@ def initialize
 end
 
 def add(name, date)
- [{ name: "Kuba", date: "20 Feb 1986" }]
+ @list << { name: name, date: date }
 end
 
 
